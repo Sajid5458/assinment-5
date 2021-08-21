@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.product-container {
+  display: flex;
+  padding: 5% 0 5% 2%;
+}
+.product-img img {
+  width: 400px;
+}
+.product-info {
+  padding-left: 5%;
+}
+/* all buttons */
+.product-buttons {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.product-buttons:hover {
+  background-color: black;
+  color: white;
+}
+/* table prices */
+td {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5% 0;
+  border-bottom: 1px solid black;
+}
+.total-price td {
+  border: none;
+  border-top: 2px solid black;
+}
+.table {
+  width: 50% !important;
+}
